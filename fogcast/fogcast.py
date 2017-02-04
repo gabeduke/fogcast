@@ -4,11 +4,6 @@ import click
 import forecastio
 
 
-def fetch_forecast_by_day(forecast_key, lat, lng):
-    forecast = forecastio.load_forecast(c.forecast_key, c.lat, c.lng)
-    return forecast.daily()
-
-
 def fetch_forecast_by_hour(forecast_key, lat, lng):
     forecast = forecastio.load_forecast(forecast_key, lat, lng)
     return forecast.hourly()
