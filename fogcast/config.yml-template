@@ -1,0 +1,5 @@
+API_KEYS:
+  forecast_key: <Darksky API Key>
+VARS:
+  lat: <latitude>
+  lng: <longitude>
